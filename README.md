@@ -27,8 +27,8 @@ Antes de comenzar, verifica que tienes lo siguiente instalado en tu sistema:
 ### **1. Clonar el Repositorio**
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
-cd gestor-libros
+git clone https://github.com/TheRealVarpus/ChallengeLiteralura.git
+cd ChallengeLiterAlura
 ```
 
 ### **2. Configurar Variables de Entorno**
@@ -39,14 +39,14 @@ Define las siguientes variables para conectar la aplicación con tu base de dato
 |---------------|------------------------------|----------------|
 | DB_HOST       | Dirección del servidor       | localhost      |
 | DB_PORT       | Puerto de conexión           | 3306           |
-| DB_NAME       | Nombre de la base de datos   | gestor_libros  |
+| DB_NAME       | Nombre de la base de datos   | LiterAlura  |
 | DB_USERNAME   | Usuario de la base de datos  | root           |
 | DB_PASSWORD   | Contraseña de la base de datos | tu_contraseña |
 
 También puedes configurar estas credenciales en `src/main/resources/application.properties`:
 
 ```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/gestor_libros
+spring.datasource.url=jdbc:mysql://localhost:3306/LiterAlura
 spring.datasource.username=root
 spring.datasource.password=tu_contraseña
 ```
